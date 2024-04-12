@@ -1,0 +1,62 @@
+* {
+    font-family: 'Figtree';
+    padding: 0.25rem;
+    text-align: left;
+}
+
+#text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 650;
+    color: black;
+}
+
+#author {
+    font-size: 1.25rem;
+    font-weight: 475;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1.125rem;
+    max-width: 40%;
+    margin-top: 2.5rem;
+}
+
+#new-quote {
+    height: auto;
+    box-shadow: 3px 3px 0 black;
+    border-radius: 0.5rem;
+    border: 1.75px solid black;
+    font-weight: 500;
+    color: black;
+    background-color: #ffc941;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#new-quote:hover {
+    background-color: #ffe194;
+    transition: ease 0.25s;
+    box-shadow: 4.5px 5.5px 0 black;
+}
+
+#tweet-quote {
+    border-radius: 0.5rem;
+    font-weight: 500;
+    color: black;
+    background-color: #ddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    outline: none;
+    border: 1.75px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+#tweet-quote:hover {
+    background-color: #c7c7c7;
+    transition: ease 0.25s;
+}
